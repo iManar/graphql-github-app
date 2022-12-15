@@ -1,4 +1,4 @@
-# graphql-github-app
+# GraphQL GitHubApp
 
 In case the app displays error after loading, that would mean the used `GitHub` access token has been expired! 
 To make it work please visit `https://github.com/settings/tokens` and generate new acccess token and then paste in inside `Constants.swift` file to e able to test the app smoothly.
