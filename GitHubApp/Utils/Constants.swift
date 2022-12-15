@@ -10,11 +10,11 @@ import Foundation
 struct Constants {
     
     struct User {
-        static let username: String = "imanar"
+        static let username: String = "hwillson"
     }
 
     struct APIKeys {
-        static let GitHubAccessToken: String = "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"
+        static let GitHubAccessToken: String = "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"
     }
     
 }
