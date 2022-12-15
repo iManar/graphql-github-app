@@ -10,7 +10,7 @@ import Foundation
 struct Constants {
     
     struct User {
-        static let username: String = "hwillson"
+        static let username: String = "imanar"
     }
 
     struct APIKeys {
