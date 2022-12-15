@@ -202,9 +202,33 @@
 		32468949294B352D00B62F0A /* GitHubAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				3246894A294B352D00B62F0A /* GitHubAppTests.swift */,
+				32468953294B358A00B62F0A /* Controllers */,
+				32468952294B358500B62F0A /* Services */,
+				32468951294B358100B62F0A /* Mocks */,
 			);
 			path = GitHubAppTests;
+			sourceTree = "<group>";
+		};
+		32468951294B358100B62F0A /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		32468952294B358500B62F0A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		32468953294B358A00B62F0A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3246894A294B352D00B62F0A /* GitHubAppTests.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
