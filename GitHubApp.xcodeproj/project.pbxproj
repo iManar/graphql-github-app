@@ -8,17 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		3246890A294A987C00B62F0A /* GitHubAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32468909294A987C00B62F0A /* GitHubAppApp.swift */; };
-		3246890C294A987C00B62F0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246890B294A987C00B62F0A /* ContentView.swift */; };
 		3246890E294A987D00B62F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3246890D294A987D00B62F0A /* Assets.xcassets */; };
 		32468911294A987D00B62F0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32468910294A987D00B62F0A /* Preview Assets.xcassets */; };
+		3246891A294A98A800B62F0A /* Query+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32468918294A98A800B62F0A /* Query+Extensions.swift */; };
+		3246891B294A98A800B62F0A /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32468919294A98A800B62F0A /* View+Extensions.swift */; };
+		32468920294A98B700B62F0A /* Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246891D294A98B700B62F0A /* Apollo.swift */; };
+		32468921294A98B700B62F0A /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 3246891E294A98B700B62F0A /* Queries.graphql */; };
+		32468922294A98B700B62F0A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246891F294A98B700B62F0A /* API.swift */; };
+		32468927294A98C700B62F0A /* RepositoriesListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32468925294A98C700B62F0A /* RepositoriesListScreen.swift */; };
+		32468928294A98C700B62F0A /* AddRepositoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32468926294A98C700B62F0A /* AddRepositoryScreen.swift */; };
+		3246892B294A98D100B62F0A /* RepositoryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246892A294A98D100B62F0A /* RepositoryNode.swift */; };
+		3246892E294A98D800B62F0A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246892D294A98D800B62F0A /* Constants.swift */; };
+		32468933294A98DF00B62F0A /* ErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32468930294A98DF00B62F0A /* ErrorViewModel.swift */; };
+		32468934294A98DF00B62F0A /* AddRepositoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32468931294A98DF00B62F0A /* AddRepositoryViewModel.swift */; };
+		32468935294A98DF00B62F0A /* RespositoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32468932294A98DF00B62F0A /* RespositoryListViewModel.swift */; };
+		32468938294A98E600B62F0A /* ErrorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32468937294A98E600B62F0A /* ErrorsView.swift */; };
+		3246893B294A992600B62F0A /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 3246893A294A992600B62F0A /* Apollo */; };
+		3246893D294A992600B62F0A /* ApolloAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 3246893C294A992600B62F0A /* ApolloAPI */; };
+		3246893F294A992600B62F0A /* ApolloCodegenLib in Frameworks */ = {isa = PBXBuildFile; productRef = 3246893E294A992600B62F0A /* ApolloCodegenLib */; };
+		32468941294A992600B62F0A /* ApolloSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 32468940294A992600B62F0A /* ApolloSQLite */; };
+		32468943294A992600B62F0A /* ApolloUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 32468942294A992600B62F0A /* ApolloUtils */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32468906294A987C00B62F0A /* GitHubApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32468909294A987C00B62F0A /* GitHubAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAppApp.swift; sourceTree = "<group>"; };
-		3246890B294A987C00B62F0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3246890D294A987D00B62F0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32468910294A987D00B62F0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32468918294A98A800B62F0A /* Query+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Query+Extensions.swift"; sourceTree = "<group>"; };
+		32468919294A98A800B62F0A /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		3246891D294A98B700B62F0A /* Apollo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apollo.swift; sourceTree = "<group>"; };
+		3246891E294A98B700B62F0A /* Queries.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
+		3246891F294A98B700B62F0A /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		32468925294A98C700B62F0A /* RepositoriesListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesListScreen.swift; sourceTree = "<group>"; };
+		32468926294A98C700B62F0A /* AddRepositoryScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRepositoryScreen.swift; sourceTree = "<group>"; };
+		3246892A294A98D100B62F0A /* RepositoryNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryNode.swift; sourceTree = "<group>"; };
+		3246892D294A98D800B62F0A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		32468930294A98DF00B62F0A /* ErrorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorViewModel.swift; sourceTree = "<group>"; };
+		32468931294A98DF00B62F0A /* AddRepositoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRepositoryViewModel.swift; sourceTree = "<group>"; };
+		32468932294A98DF00B62F0A /* RespositoryListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RespositoryListViewModel.swift; sourceTree = "<group>"; };
+		32468937294A98E600B62F0A /* ErrorsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +55,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3246893D294A992600B62F0A /* ApolloAPI in Frameworks */,
+				32468943294A992600B62F0A /* ApolloUtils in Frameworks */,
+				32468941294A992600B62F0A /* ApolloSQLite in Frameworks */,
+				3246893F294A992600B62F0A /* ApolloCodegenLib in Frameworks */,
+				3246893B294A992600B62F0A /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +85,15 @@
 		32468908294A987C00B62F0A /* GitHubApp */ = {
 			isa = PBXGroup;
 			children = (
+				32468929294A98D100B62F0A /* Protocols */,
+				32468923294A98BF00B62F0A /* Models */,
+				32468936294A98E600B62F0A /* Views */,
+				32468924294A98C700B62F0A /* Pages */,
+				3246892F294A98DF00B62F0A /* View Models */,
+				3246892C294A98D800B62F0A /* Utils */,
+				3246891C294A98B700B62F0A /* GraphQL */,
+				32468917294A98A800B62F0A /* Extensions */,
 				32468909294A987C00B62F0A /* GitHubAppApp.swift */,
-				3246890B294A987C00B62F0A /* ContentView.swift */,
 				3246890D294A987D00B62F0A /* Assets.xcassets */,
 				3246890F294A987D00B62F0A /* Preview Content */,
 			);
@@ -65,6 +106,75 @@
 				32468910294A987D00B62F0A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32468917294A98A800B62F0A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				32468918294A98A800B62F0A /* Query+Extensions.swift */,
+				32468919294A98A800B62F0A /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3246891C294A98B700B62F0A /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				3246891D294A98B700B62F0A /* Apollo.swift */,
+				3246891E294A98B700B62F0A /* Queries.graphql */,
+				3246891F294A98B700B62F0A /* API.swift */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		32468923294A98BF00B62F0A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		32468924294A98C700B62F0A /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				32468925294A98C700B62F0A /* RepositoriesListScreen.swift */,
+				32468926294A98C700B62F0A /* AddRepositoryScreen.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		32468929294A98D100B62F0A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3246892A294A98D100B62F0A /* RepositoryNode.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3246892C294A98D800B62F0A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3246892D294A98D800B62F0A /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3246892F294A98DF00B62F0A /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				32468930294A98DF00B62F0A /* ErrorViewModel.swift */,
+				32468931294A98DF00B62F0A /* AddRepositoryViewModel.swift */,
+				32468932294A98DF00B62F0A /* RespositoryListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		32468936294A98E600B62F0A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32468937294A98E600B62F0A /* ErrorsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +193,13 @@
 			dependencies = (
 			);
 			name = GitHubApp;
+			packageProductDependencies = (
+				3246893A294A992600B62F0A /* Apollo */,
+				3246893C294A992600B62F0A /* ApolloAPI */,
+				3246893E294A992600B62F0A /* ApolloCodegenLib */,
+				32468940294A992600B62F0A /* ApolloSQLite */,
+				32468942294A992600B62F0A /* ApolloUtils */,
+			);
 			productName = GitHubApp;
 			productReference = 32468906294A987C00B62F0A /* GitHubApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +228,9 @@
 				Base,
 			);
 			mainGroup = 324688FD294A987C00B62F0A;
+			packageReferences = (
+				32468939294A992600B62F0A /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = 32468907294A987C00B62F0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32468921294A98B700B62F0A /* Queries.graphql in Resources */,
 				32468911294A987D00B62F0A /* Preview Assets.xcassets in Resources */,
 				3246890E294A987D00B62F0A /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +258,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3246890C294A987C00B62F0A /* ContentView.swift in Sources */,
 				3246890A294A987C00B62F0A /* GitHubAppApp.swift in Sources */,
+				3246891B294A98A800B62F0A /* View+Extensions.swift in Sources */,
+				32468927294A98C700B62F0A /* RepositoriesListScreen.swift in Sources */,
+				32468935294A98DF00B62F0A /* RespositoryListViewModel.swift in Sources */,
+				32468934294A98DF00B62F0A /* AddRepositoryViewModel.swift in Sources */,
+				3246891A294A98A800B62F0A /* Query+Extensions.swift in Sources */,
+				3246892E294A98D800B62F0A /* Constants.swift in Sources */,
+				3246892B294A98D100B62F0A /* RepositoryNode.swift in Sources */,
+				32468928294A98C700B62F0A /* AddRepositoryScreen.swift in Sources */,
+				32468922294A98B700B62F0A /* API.swift in Sources */,
+				32468938294A98E600B62F0A /* ErrorsView.swift in Sources */,
+				32468920294A98B700B62F0A /* Apollo.swift in Sources */,
+				32468933294A98DF00B62F0A /* ErrorViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +471,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		32468939294A992600B62F0A /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3246893A294A992600B62F0A /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32468939294A992600B62F0A /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		3246893C294A992600B62F0A /* ApolloAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32468939294A992600B62F0A /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloAPI;
+		};
+		3246893E294A992600B62F0A /* ApolloCodegenLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32468939294A992600B62F0A /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloCodegenLib;
+		};
+		32468940294A992600B62F0A /* ApolloSQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32468939294A992600B62F0A /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloSQLite;
+		};
+		32468942294A992600B62F0A /* ApolloUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32468939294A992600B62F0A /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloUtils;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 324688FE294A987C00B62F0A /* Project object */;
 }

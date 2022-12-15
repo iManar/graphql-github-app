@@ -2,7 +2,7 @@
 //  GitHubAppApp.swift
 //  GitHubApp
 //
-//  Created by Manar Magdy on 15/12/2022.
+//  Created by Manar Magdy on 24/09/2022.
 //
 
 import SwiftUI
