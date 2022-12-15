@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-struct ContentView: View {
+struct RepositoriesListScreen: View {
     
     @State private var repositoriesDisplay: String = "latest"
     @State private var isPresented: Bool = false
@@ -74,6 +74,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        RepositoriesListScreen()
     }
 }
