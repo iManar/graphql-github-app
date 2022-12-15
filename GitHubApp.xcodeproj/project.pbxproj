@@ -22,7 +22,7 @@
 		32468933294A98DF00B62F0A /* ErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32468930294A98DF00B62F0A /* ErrorViewModel.swift */; };
 		32468934294A98DF00B62F0A /* AddRepositoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32468931294A98DF00B62F0A /* AddRepositoryViewModel.swift */; };
 		32468935294A98DF00B62F0A /* RespositoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32468932294A98DF00B62F0A /* RespositoryListViewModel.swift */; };
-		32468938294A98E600B62F0A /* ErrorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32468937294A98E600B62F0A /* ErrorsView.swift */; };
+		32468938294A98E600B62F0A /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32468937294A98E600B62F0A /* ErrorView.swift */; };
 		3246893B294A992600B62F0A /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 3246893A294A992600B62F0A /* Apollo */; };
 		3246893D294A992600B62F0A /* ApolloAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 3246893C294A992600B62F0A /* ApolloAPI */; };
 		3246893F294A992600B62F0A /* ApolloCodegenLib in Frameworks */ = {isa = PBXBuildFile; productRef = 3246893E294A992600B62F0A /* ApolloCodegenLib */; };
@@ -47,7 +47,7 @@
 		32468930294A98DF00B62F0A /* ErrorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorViewModel.swift; sourceTree = "<group>"; };
 		32468931294A98DF00B62F0A /* AddRepositoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRepositoryViewModel.swift; sourceTree = "<group>"; };
 		32468932294A98DF00B62F0A /* RespositoryListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RespositoryListViewModel.swift; sourceTree = "<group>"; };
-		32468937294A98E600B62F0A /* ErrorsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorsView.swift; sourceTree = "<group>"; };
+		32468937294A98E600B62F0A /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +172,7 @@
 		32468936294A98E600B62F0A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				32468937294A98E600B62F0A /* ErrorsView.swift */,
+				32468937294A98E600B62F0A /* ErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -268,7 +268,7 @@
 				3246892B294A98D100B62F0A /* RepositoryNode.swift in Sources */,
 				32468928294A98C700B62F0A /* AddRepositoryScreen.swift in Sources */,
 				32468922294A98B700B62F0A /* API.swift in Sources */,
-				32468938294A98E600B62F0A /* ErrorsView.swift in Sources */,
+				32468938294A98E600B62F0A /* ErrorView.swift in Sources */,
 				32468920294A98B700B62F0A /* Apollo.swift in Sources */,
 				32468933294A98DF00B62F0A /* ErrorViewModel.swift in Sources */,
 			);
